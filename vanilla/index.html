@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Saira&display=swap" rel="stylesheet">
+    <title>Capputeeno vanilla</title>
+    <link rel="shortcut icon" href="#" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo">
+                capputeeno
+            </a>
+            <div class="filter-produtos-shell">
+                <div class="filter">
+                    <input id="inp-filter" type="text" placeholder="Procurando por algo específico?">
+                    <label for="inp-filter">
+                        <img src="./Group.svg">
+                    </label>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-- cards -->
+        <div class="header-main">
+            <button class="active" id="list-all-products">Todos os produtos</button>
+            <button id="list-camisetas">Camisetas</button>
+            <button id="list-canecas">Canecas</button>
+        </div>
+        <div class="cards"></div>
+    </main>
+    <section class="produto none">
+        <h2 class="btn-voltar-home">Voltar</h1>
+        <div class="info-produto">
+            <div class="img">
+                <img src="https://storage.googleapis.com/xesque-dev/challenge-images/caneca-03.jpg" alt="">
+            </div>
+            <div class="description_produto">
+                <div class="description">
+                    <h1>Descrição Do Produto</h1>
+                    <!-- <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi, facere.</p> -->
+                </div>
+                <div class="addcarrinho">
+                    <button>adicionar ao carrinho</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

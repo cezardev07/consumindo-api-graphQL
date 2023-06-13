@@ -1,0 +1,13 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Saira';
+}
+body{
+  position: relative;
+  background: #F0F0F5;
+}
+a{
+  text-decoration: none;
+}
